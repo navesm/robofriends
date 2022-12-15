@@ -6,11 +6,6 @@ import ErrorBoundary from '../components/ErrorBoundary';
 import './App.css'
 
 
-const state = {
-	
-
-}
-
 class App extends Component {
 constructor(){
 	super()
