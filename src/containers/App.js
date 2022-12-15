@@ -34,8 +34,8 @@ onSearchChange = (event) => {
 
 render() {
 	const {robots,searchfield} = this.state;
-	const filteredRobots= robots.filter(robots =>{
-		return robots.name.toLowerCase().includes(searchfield.toLowerCase());
+	const filteredRobots= robots.filter(robot =>{
+		return robot.name.toLowerCase().includes(searchfield.toLowerCase());
 	});
 	if(!robots.length){
 		return <h1>Loading</h1>
